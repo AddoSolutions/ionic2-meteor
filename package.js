@@ -23,25 +23,25 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'bootstrap.ts'
-  ], 'client');
+  ], ['web.cordova']);
 
   api.addFiles([
     'node_modules/web-animations-js/web-animations.min.js'
-  ], 'client');
+  ], ['web.cordova']);
 
   api.addAssets([
     'node_modules/ionic-framework/fonts/ionicons.ttf',
     'node_modules/ionic-framework/fonts/ionicons.woff2',
     'node_modules/ionic-framework/fonts/roboto-regular.ttf',
     'node_modules/ionic-framework/fonts/roboto-regular.woff'
-  ], 'client');
+  ], ['web.cordova']);
 
   api.addFiles([
     'node_modules/ionic-framework/bundles/ionic.css',
     'node_modules/ionic-framework/bundles/ionic.ios.css',
     'node_modules/ionic-framework/bundles/ionic.md.css',
     'node_modules/ionic-framework/bundles/ionic.system.js'
-  ], 'client');
+  ], ['web.cordova']);
 
   // Install typings.
   api.addFiles([
